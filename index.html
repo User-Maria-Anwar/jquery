@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>jquery demo</title>
+    <script src="jquery.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Jquery First Class</h1>
+       <div id="test1">
+        <h2>test box 1</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ipsa?</p>
+       </div>
+       <div id="test2">
+        <h2>test box 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, ipsa?</p>
+       </div>
+       <script>
+        $(document).ready(function(){
+
+         var a= $('#test1').html();
+         console.log(a);
+
+         
+        });
+       </script>
+</body>
+</html>

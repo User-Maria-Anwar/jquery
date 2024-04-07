@@ -1,0 +1,15 @@
+#test1{
+    height: 150px;
+    width: 200px;
+   background-color: rgb(170, 145, 111);
+    border: 1px solid black;
+    float: left;
+    
+}
+#test2{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(170, 111, 160);
+    border: 1px solid black;
+    float: right;
+}
